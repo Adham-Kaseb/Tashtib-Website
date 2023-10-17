@@ -113,7 +113,6 @@ input:checked + * {
   color: white;
   font-size: calc(var(--clip_w) * var(--ratio) / 3.5);
   font-weight: 700;
-  overflow-wrap: break-word;
   mix-blend-mode: difference;
 }
 .inner p {
@@ -161,12 +160,12 @@ input:checked + * {
   }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 720px) {
   .herop1 {
     font-size: 45px!important;
   }
 
   .herop2 {
-    font-size: 30px!important;
+    font-size: 25px!important;
   }
 }
