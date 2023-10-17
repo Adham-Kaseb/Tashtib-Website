@@ -1,8 +1,3 @@
-/*
-Wall Poster Animation
-https://codepen.io/wakana-k/pen/MWZbVxm
-Copyright (c) 2023 by Wakana Y.K. @wakana-k 
-*/
 "use strict";
 console.clear();
 
@@ -30,13 +25,6 @@ console.clear();
     let vRatio = hh / bg_height;
     let ratio = Math.max(hRatio, vRatio);
     root.style.setProperty("--ratio", ratio);
-    /*
-		// cssで計算した方が早いのでそっちで処理
-		let centerShift_x = (ww - bg_width * ratio) / 2;
-		let centerShift_y = (hh - bg_height * ratio) / 2;
-		root.style.setProperty("--centerShift_x", centerShift_x + "px");
-		root.style.setProperty("--centerShift_y", centerShift_y + "px");
-		*/
   }
   resize();
   window.onresize = resize;
