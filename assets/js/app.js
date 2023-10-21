@@ -4,7 +4,7 @@ const data = {
       png: ".https://cdn-icons-png.flaticon.com/512/2815/2815428.png",
       webp: ".https://cdn-icons-png.flaticon.com/512/2815/2815428.png",
     },
-    username: "مهندس عمرو محمد",
+    username: " مهندس عمرو عادل",
   },
   comments: [
     {
@@ -97,7 +97,7 @@ const addComment = (body, parentId, replyTo = undefined) => {
         ? 1
         : commentParent[commentParent.length - 1].id + 1,
     content: body,
-    createdAt: "Now",
+    createdAt: "منذ ثوان",
     replyingTo: replyTo,
     score: 0,
     replies: parent == 0 ? [] : undefined,

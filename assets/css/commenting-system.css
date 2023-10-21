@@ -183,10 +183,10 @@ button:hover {
 
 .this-user .usr-name::after {
   font-weight: 400;
-  content: "أنت";
+  content: "";
   margin-right: 8px;
   color: var(--White);
-  background-color: var(--Moderate-blue);
+  /* background-color: var(--Moderate-blue); */
   padding: 0 0.4rem;
   padding-bottom: 0.2rem;
   font-size: 0.8rem;
