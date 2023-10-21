@@ -272,9 +272,26 @@ h6 {
 
 .search_button {
   background-color: #0d7d68 !important;
-  padding: 13px 20px !important;
+  padding: 12px 18px !important;
   color: white !important;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+  .search_button {
+    background-color: #0d7d68 !important;
+    padding: 14px 20px !important;
+    color: white !important;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 110px;
+    border-radius: 10px !important;
+    transition: all 500ms ease !important;
+  }
+
+  .search_button:hover {
+    width: 95%;
+  }
 }
 
 .search_button i {
